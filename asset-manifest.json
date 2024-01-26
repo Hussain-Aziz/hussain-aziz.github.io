@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.8d0970e3.css",
+    "main.js": "/portfolio/static/js/main.805aba3c.js",
+    "static/media/HKVocalized.png": "/portfolio/static/media/HKVocalized.a861dc5711ff8164873a.png",
+    "static/media/Lumafly.png": "/portfolio/static/media/Lumafly.ad2c9484476cca916b64.png",
+    "static/media/EVCarUI.gif": "/portfolio/static/media/EVCarUI.4281cb11997e5115b7f9.gif",
+    "static/media/Mashghal.png": "/portfolio/static/media/Mashghal.5accbb3ca5e3dfa206a6.png",
+    "static/media/SKLearn.png": "/portfolio/static/media/SKLearn.bfb987221ae5f83d782b.png",
+    "static/media/Keras.png": "/portfolio/static/media/Keras.a4b0526613e18f576366.png",
+    "static/media/Resume.pdf": "/portfolio/static/media/Resume.78c85101ccac0f6da627.pdf",
+    "index.html": "/portfolio/index.html",
+    "main.8d0970e3.css.map": "/portfolio/static/css/main.8d0970e3.css.map",
+    "main.805aba3c.js.map": "/portfolio/static/js/main.805aba3c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8d0970e3.css",
+    "static/js/main.805aba3c.js"
+  ]
+}
