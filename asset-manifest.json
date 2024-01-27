@@ -1,21 +1,26 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.2c439fc2.css",
-    "main.js": "/portfolio/static/js/main.48a6787e.js",
-    "static/media/HKVocalized.png": "/portfolio/static/media/HKVocalized.a861dc5711ff8164873a.png",
-    "static/media/Lumafly.png": "/portfolio/static/media/Lumafly.ad2c9484476cca916b64.png",
-    "static/media/EVCarUI.gif": "/portfolio/static/media/EVCarUI.4281cb11997e5115b7f9.gif",
-    "static/media/Mashghal.png": "/portfolio/static/media/Mashghal.5accbb3ca5e3dfa206a6.png",
-    "static/media/SKLearn.png": "/portfolio/static/media/SKLearn.bfb987221ae5f83d782b.png",
-    "static/media/Keras.png": "/portfolio/static/media/Keras.a4b0526613e18f576366.png",
-    "static/media/Cpp.png": "/portfolio/static/media/Cpp.053a898d752aef72651e.png",
-    "static/media/Resume.pdf": "/portfolio/static/media/Resume.78c85101ccac0f6da627.pdf",
-    "index.html": "/portfolio/index.html",
-    "main.2c439fc2.css.map": "/portfolio/static/css/main.2c439fc2.css.map",
-    "main.48a6787e.js.map": "/portfolio/static/js/main.48a6787e.js.map"
+    "main.css": "/static/css/main.ebec447f.css",
+    "main.js": "/static/js/main.54b9ee89.js",
+    "static/media/AdminDashbord_Map.png": "/static/media/AdminDashbord_Map.e15e231a8fe09868cdbc.png",
+    "static/media/HKVocalized.png": "/static/media/HKVocalized.a861dc5711ff8164873a.png",
+    "static/media/Lumafly.png": "/static/media/Lumafly.ad2c9484476cca916b64.png",
+    "static/media/EVCarUI.gif": "/static/media/EVCarUI.4281cb11997e5115b7f9.gif",
+    "static/media/AdminDashbord_UserManagement.png": "/static/media/AdminDashbord_UserManagement.9280e52d18524eedaa99.png",
+    "static/media/Mashghal.png": "/static/media/Mashghal.5accbb3ca5e3dfa206a6.png",
+    "static/media/SKLearn.png": "/static/media/SKLearn.bfb987221ae5f83d782b.png",
+    "static/media/Keras.png": "/static/media/Keras.a4b0526613e18f576366.png",
+    "static/media/Java.png": "/static/media/Java.6c1a3b5f7e2d535bff5b.png",
+    "static/media/Cpp.png": "/static/media/Cpp.053a898d752aef72651e.png",
+    "static/media/Flutter.png": "/static/media/Flutter.e02c61f49d1b36bf3814.png",
+    "static/media/PFW.png": "/static/media/PFW.a97022c701ba342123a9.png",
+    "static/media/Resume.pdf": "/static/media/Resume.78c85101ccac0f6da627.pdf",
+    "index.html": "/index.html",
+    "main.ebec447f.css.map": "/static/css/main.ebec447f.css.map",
+    "main.54b9ee89.js.map": "/static/js/main.54b9ee89.js.map"
   },
   "entrypoints": [
-    "static/css/main.2c439fc2.css",
-    "static/js/main.48a6787e.js"
+    "static/css/main.ebec447f.css",
+    "static/js/main.54b9ee89.js"
   ]
 }
