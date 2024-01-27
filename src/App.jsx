@@ -13,10 +13,14 @@ const App = () => {
   const [searchParams,] = useSearchParams();
   const navigate = useNavigate();
   useEffect(() => {
-    const page = searchParams.get("page");
-    if (page === "Lumafly") navigate("/Lumafly");
-    if (page === "Marshall") navigate("/Marshall");
-    if (page === "EVCar") navigate("/EVCar");
+    let page = searchParams.get("page");
+    if (page != null) {
+      page = page.toLowerCase();
+      if (page === "lumafly") navigate("/Lumafly");
+      if (page === "marshall") navigate("/Marshall");
+      if (page === "evcar") navigate("/EVCar");
+      if (page === "mimii") navigate("/MIMII");
+    }
   }, [searchParams, navigate]);
 
   return (

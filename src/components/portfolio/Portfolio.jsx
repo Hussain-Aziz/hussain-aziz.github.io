@@ -73,7 +73,7 @@ const soloProjects = [
     img: Keras,
     description: "Uses auto encoder neural networks for anomaly detection in factory machine sounds",
     technologies: "Python | Keras | Matplotlib | Cuml",
-    link: "https://github.com/Hussain-Aziz/COE_476_Project", 
+    link: "/MIMII", 
   },      
   {
     title: "Hallownest Vocalized",
