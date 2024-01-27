@@ -10,6 +10,8 @@
   border-radius: 2rem;
   border: 1px solid transparent;
   transition: var(--transition);
+  display: flex;
+  flex-direction: column;
 }
 
 .portfolio__item:hover {
@@ -35,8 +37,6 @@
 
 .portfolio__item-cta {
   display: flex;
-  width: 100%;
-  gap: 1rem;
   margin-bottom: 2rem;
   margin-left: auto;
   margin-right: auto;
@@ -44,7 +44,31 @@
 
 .portfolio__item-content {
   margin-bottom: 2rem;
-  height: 40%;
+}
+
+.show-more-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.show-more {
+  color: var(--color-bg);
+  background: transparent;
+}
+
+.new-item {
+  opacity: 0;
+  transform: translateY(-50px);
+  animation: slideDown 0.45s ease-out forwards;
+}
+
+@keyframes slideDown {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 @media screen and (max-width: 1300px) {

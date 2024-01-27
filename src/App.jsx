@@ -4,7 +4,8 @@ import Header from "./components/header/Header";
 import Portfolio from "./components/portfolio/Portfolio";
 import Topbar from "./components/topbar/Topbar";
 import Contact from "./components/contact/Contact";
-import Intro from "./components/intro/Intro";
+import About from "./components/about/About";
+
 
 const App = () => {
 
@@ -13,7 +14,7 @@ const App = () => {
       <Header />
       <Topbar />
       <Portfolio />
-      <Intro/>
+      <About/>
       <Contact/>
       <Footer />
     </>
