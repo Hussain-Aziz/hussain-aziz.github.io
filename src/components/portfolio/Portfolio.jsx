@@ -36,7 +36,6 @@ const Portfolio = () => {
               <h3><b>{pro.title}</b></h3>
               {typeof pro.description === 'string' ? <p>{pro.description}</p> : pro.description}
               <p><b>Technologies: </b>{pro.technologies}</p>
-              {pro.features && <p><b>Features: </b>{pro.features}</p>}
             </div>
             <div className="portfolio__item-cta" style={{flexGrow: 1, alignItems: 'end'}}>
               {pro.link.includes('http') 
@@ -58,17 +57,16 @@ const soloProjects = [
   {
     title: "Lumafly",
     img: Lumafly,
-    description: "Fully featured modinstaller with 175k+ downloads.",
+    description: "A fully featured, cross platform desktop app written in C# which currently has 175k+ downloads.",
     technologies: "C# | AvaloniaUI",
-    features: "Cross Platform | Fully Localized in 7 languages",
-    link: "https://github.com/TheMulhima/Lumafly#readme",
+    link: "/Lumafly",
   },
   {
     title: "Admin Dashboard",
     img: MarshallLogo,
     description: <p>Created a webapp for <a target="_blank" rel="noreferrer" href="https://webservices.aerovision.app/">Marshall Radio Telemetry</a> which displayed analytics and locations for 4k+ users</p>,
     technologies: "React | Django",
-    link: "/marshall",
+    link: "/Marshall",
   },
   {
     title: "Anomalous Sound Detection",
