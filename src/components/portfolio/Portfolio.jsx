@@ -87,7 +87,7 @@ const soloProjects = [
     img: EVCarUI ,
     description: "Built a car dashboard screen to be displayed on a Raspberry Pi screen in a custom built EV car",
     technologies: "C# | Avalonia | Raspberry Pi | LoRa",
-    link: "https://github.com/IEEEPFWStudentChapter/EV-Car-UI/", 
+    link: "/EVCar", 
   },
   {
     title: "Mashghal",

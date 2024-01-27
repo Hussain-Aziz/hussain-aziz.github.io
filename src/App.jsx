@@ -16,6 +16,7 @@ const App = () => {
     const page = searchParams.get("page");
     if (page === "Lumafly") navigate("/Lumafly");
     if (page === "Marshall") navigate("/Marshall");
+    if (page === "EVCar") navigate("/EVCar");
   }, [searchParams, navigate]);
 
   return (
