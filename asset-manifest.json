@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.9b2c4fa8.css",
-    "main.js": "/static/js/main.99d79745.js",
+    "main.css": "/static/css/main.573a32d1.css",
+    "main.js": "/static/js/main.c86498c9.js",
+    "static/media/COE476Proj.pdf": "/static/media/COE476Proj.8bea0844aed05d0dcf31.pdf",
     "static/media/AdminDashbord_Map.png": "/static/media/AdminDashbord_Map.e15e231a8fe09868cdbc.png",
     "static/media/HKVocalized.png": "/static/media/HKVocalized.a861dc5711ff8164873a.png",
     "static/media/Lumafly.png": "/static/media/Lumafly.ad2c9484476cca916b64.png",
     "static/media/EVCarUI.gif": "/static/media/EVCarUI.4281cb11997e5115b7f9.gif",
     "static/media/AdminDashbord_UserManagement.png": "/static/media/AdminDashbord_UserManagement.9280e52d18524eedaa99.png",
     "static/media/LumaflyMain.png": "/static/media/LumaflyMain.3e0a4d92c61f7cab7fe2.png",
+    "static/media/Resume.pdf": "/static/media/Resume.3c2b85054ee221428ff7.pdf",
     "static/media/Mashghal.png": "/static/media/Mashghal.5accbb3ca5e3dfa206a6.png",
     "static/media/SKLearn.png": "/static/media/SKLearn.bfb987221ae5f83d782b.png",
     "static/media/LumaflyMods.png": "/static/media/LumaflyMods.7f626ed6111dd15880f6.png",
@@ -16,13 +18,12 @@
     "static/media/Cpp.png": "/static/media/Cpp.053a898d752aef72651e.png",
     "static/media/Flutter.png": "/static/media/Flutter.e02c61f49d1b36bf3814.png",
     "static/media/PFW.png": "/static/media/PFW.a97022c701ba342123a9.png",
-    "static/media/Resume.pdf": "/static/media/Resume.78c85101ccac0f6da627.pdf",
     "index.html": "/index.html",
-    "main.9b2c4fa8.css.map": "/static/css/main.9b2c4fa8.css.map",
-    "main.99d79745.js.map": "/static/js/main.99d79745.js.map"
+    "main.573a32d1.css.map": "/static/css/main.573a32d1.css.map",
+    "main.c86498c9.js.map": "/static/js/main.c86498c9.js.map"
   },
   "entrypoints": [
-    "static/css/main.9b2c4fa8.css",
-    "static/js/main.99d79745.js"
+    "static/css/main.573a32d1.css",
+    "static/js/main.c86498c9.js"
   ]
 }
