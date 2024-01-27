@@ -12,7 +12,7 @@ const Lumafly = () => {
   const navigate = useNavigate();
 
   const goBack = () => {
-    navigate("/");
+    navigate(-1);
   };
 
   const features = [

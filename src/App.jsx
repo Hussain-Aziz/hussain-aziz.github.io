@@ -14,12 +14,16 @@ const App = () => {
   const navigate = useNavigate();
   useEffect(() => {
     let page = searchParams.get("page");
+    const changePage = (path) => {
+      navigate("/") // so we can get the correct behavior when using navigate(-1)
+      navigate(path);
+    }
     if (page != null) {
       page = page.toLowerCase();
-      if (page === "lumafly") navigate("/Lumafly");
-      if (page === "marshall") navigate("/Marshall");
-      if (page === "evcar") navigate("/EVCar");
-      if (page === "mimii") navigate("/MIMII");
+      if (page === "lumafly") changePage("/Lumafly");
+      if (page === "marshall") changePage("/Marshall");
+      if (page === "evcar") changePage("/EVCar");
+      if (page === "mimii") changePage("/MIMII");
     }
   }, [searchParams, navigate]);
 

@@ -8,7 +8,7 @@ const CTA = () => {
         target='_blank'
         rel='noopener noreferrer'
         className="btn">
-        Download CV
+        View Resume
       </a>
     </div>
   );

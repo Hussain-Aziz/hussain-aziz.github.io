@@ -8,7 +8,7 @@ const EVCar = () => {
   const navigate = useNavigate();
 
   const goBack = () => {
-    navigate("/");
+    navigate(-1);
   };
   return (
     <div>
