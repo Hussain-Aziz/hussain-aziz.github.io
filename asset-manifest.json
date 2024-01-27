@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.d8d7138a.css",
-    "main.js": "/portfolio/static/js/main.20bec7c6.js",
+    "main.css": "/portfolio/static/css/main.2c439fc2.css",
+    "main.js": "/portfolio/static/js/main.48a6787e.js",
     "static/media/HKVocalized.png": "/portfolio/static/media/HKVocalized.a861dc5711ff8164873a.png",
     "static/media/Lumafly.png": "/portfolio/static/media/Lumafly.ad2c9484476cca916b64.png",
     "static/media/EVCarUI.gif": "/portfolio/static/media/EVCarUI.4281cb11997e5115b7f9.gif",
     "static/media/Mashghal.png": "/portfolio/static/media/Mashghal.5accbb3ca5e3dfa206a6.png",
     "static/media/SKLearn.png": "/portfolio/static/media/SKLearn.bfb987221ae5f83d782b.png",
     "static/media/Keras.png": "/portfolio/static/media/Keras.a4b0526613e18f576366.png",
+    "static/media/Cpp.png": "/portfolio/static/media/Cpp.053a898d752aef72651e.png",
     "static/media/Resume.pdf": "/portfolio/static/media/Resume.78c85101ccac0f6da627.pdf",
     "index.html": "/portfolio/index.html",
-    "main.d8d7138a.css.map": "/portfolio/static/css/main.d8d7138a.css.map",
-    "main.20bec7c6.js.map": "/portfolio/static/js/main.20bec7c6.js.map"
+    "main.2c439fc2.css.map": "/portfolio/static/css/main.2c439fc2.css.map",
+    "main.48a6787e.js.map": "/portfolio/static/js/main.48a6787e.js.map"
   },
   "entrypoints": [
-    "static/css/main.d8d7138a.css",
-    "static/js/main.20bec7c6.js"
+    "static/css/main.2c439fc2.css",
+    "static/js/main.48a6787e.js"
   ]
 }
