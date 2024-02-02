@@ -15,7 +15,7 @@ const App = () => {
   useEffect(() => {
     let page = searchParams.get("page");
     const changePage = (path) => {
-      navigate("/") // so we can get the correct behavior when using navigate(-1)
+      navigate("/#portfolio") // so we can get the correct behavior when using navigate(-1)
       navigate(path);
     }
     if (page != null) {

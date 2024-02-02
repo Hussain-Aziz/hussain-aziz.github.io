@@ -11,6 +11,7 @@ const HeaderSocials = () => {
           href="https://www.linkedin.com/in/hussain-aziz-saif/"
           target="_blank"
           rel="noreferrer"
+          aria-label="LinkedIn"
         >
           <BsLinkedin />
         </a>
@@ -18,6 +19,7 @@ const HeaderSocials = () => {
           href="https://github.com/Hussain-Aziz"
           target="_blank"
           rel="noreferrer"
+          aria-label="GitHub"
         >
           <FaGithub />
         </a>
