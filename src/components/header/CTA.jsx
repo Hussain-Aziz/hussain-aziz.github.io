@@ -1,10 +1,9 @@
 import React from 'react';
-import CV from '../../assets/Resume.pdf';
 
 const CTA = () => {
   return (
     <div className="cta">
-      <a href={CV} 
+      <a href='/Hussain_Resume.pdf' 
         target='_blank'
         rel='noopener noreferrer'
         className="btn">

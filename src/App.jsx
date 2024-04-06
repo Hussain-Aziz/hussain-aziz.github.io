@@ -23,7 +23,7 @@ const App = () => {
       if (page === "lumafly") changePage("/Lumafly");
       if (page === "marshall") changePage("/Marshall");
       if (page === "evcar") changePage("/EVCar");
-      if (page === "mimii") changePage("/MIMII");
+      if (page === "mimii") window.location.href = 'https://github.com/Hussain-Aziz/Machine-Sound-Anomaly-Detector';
     }
   }, [searchParams, navigate]);
 
