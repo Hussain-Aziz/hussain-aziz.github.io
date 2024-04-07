@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.de11cc6c.css",
-    "main.js": "/static/js/main.42a03fed.js",
+    "main.css": "/static/css/main.2cdafd9b.css",
+    "main.js": "/static/js/main.bb468f11.js",
     "static/media/AdminDashbord_Map.png": "/static/media/AdminDashbord_Map.e15e231a8fe09868cdbc.png",
     "static/media/EVCarUI.gif": "/static/media/EVCarUI.4281cb11997e5115b7f9.gif",
     "static/media/AdminDashbord_UserManagement.png": "/static/media/AdminDashbord_UserManagement.9280e52d18524eedaa99.png",
@@ -16,11 +16,11 @@
     "static/media/PFW.png": "/static/media/PFW.8cc8e066ff65deaa4ea2.png",
     "static/media/Keras.png": "/static/media/Keras.fc1c6fa0c9a00791f625.png",
     "index.html": "/index.html",
-    "main.de11cc6c.css.map": "/static/css/main.de11cc6c.css.map",
-    "main.42a03fed.js.map": "/static/js/main.42a03fed.js.map"
+    "main.2cdafd9b.css.map": "/static/css/main.2cdafd9b.css.map",
+    "main.bb468f11.js.map": "/static/js/main.bb468f11.js.map"
   },
   "entrypoints": [
-    "static/css/main.de11cc6c.css",
-    "static/js/main.42a03fed.js"
+    "static/css/main.2cdafd9b.css",
+    "static/js/main.bb468f11.js"
   ]
 }
