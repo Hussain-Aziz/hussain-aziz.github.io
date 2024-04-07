@@ -7,9 +7,13 @@ import LumaflyMods from "../../../assets/LumaflyMods.png";
 import LumaflyMain from "../../../assets/LumaflyMain.png";
 import "./Lumafly.css";
 import { IconContext } from "react-icons";
+import { lumafly } from "../../../constants/pageNames";
+import useFixUrl from "../../../hooks/useFixUrl";
 
 const Lumafly = () => {
   const navigate = useNavigate();
+
+  useFixUrl(lumafly);
 
   const goBack = () => {
     navigate(-1);

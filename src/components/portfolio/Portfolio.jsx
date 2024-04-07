@@ -73,7 +73,7 @@ const soloProjects = [
     img: Keras,
     description: "Uses auto encoder neural networks for anomaly detection in factory machine sounds",
     technologies: "Python | Keras | Sklearn | Cuml",
-    link: "https://github.com/Hussain-Aziz/Machine-Sound-Anomaly-Detector", 
+    link: "https://github.com/Hussain-Aziz/Machine-Sound-Anomaly-Detector#readme", 
   },      
   {
     title: "Hallownest Vocalized",
@@ -132,7 +132,7 @@ const extraSoloProjects = [
     img: Java,
     description: "A multithreaded Java application that demonstrates the use of design patterns such as Observer, Singleton, Template, Strategy, State, and Command.",
     technologies: "Java | CLI | Multithreading",
-    link: "https://github.com/Hussain-Aziz/HungerGames#readme", 
+    link: "https://github.com/Hussain-Aziz/Hunger-Games-Simulator#readme", 
   },
 ];
 

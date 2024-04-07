@@ -6,10 +6,10 @@ import Topbar from "./components/topbar/Topbar";
 import Contact from "./components/contact/Contact";
 import About from "./components/about/About";
 import { useSearchParams, useNavigate } from "react-router-dom";
+import {lumafly, marshall, evcar, mimii, exchange} from "./constants/pageNames";
 
 
 const App = () => {
-
   const [searchParams,] = useSearchParams();
   const navigate = useNavigate();
   useEffect(() => {
@@ -20,10 +20,11 @@ const App = () => {
     }
     if (page != null) {
       page = page.toLowerCase();
-      if (page === "lumafly") changePage("/Lumafly");
-      if (page === "marshall") changePage("/Marshall");
-      if (page === "evcar") changePage("/EVCar");
-      if (page === "mimii") window.location.href = 'https://github.com/Hussain-Aziz/Machine-Sound-Anomaly-Detector';
+      if (page === lumafly) changePage("/Lumafly");
+      if (page === marshall) changePage("/Marshall");
+      if (page === evcar) changePage("/EVCar");
+      if (page === mimii) window.location.href = 'https://github.com/Hussain-Aziz/Machine-Sound-Anomaly-Detector';
+      if (page === exchange) window.location.href = 'https://exchange-application-frontend.vercel.app/login';
     }
   }, [searchParams, navigate]);
 

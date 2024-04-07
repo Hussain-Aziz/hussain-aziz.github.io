@@ -3,9 +3,13 @@ import { IoMdArrowBack } from "react-icons/io";
 import { useNavigate } from "react-router-dom";
 import EVCarUI from '../../../assets/EVCarUI.gif'
 import "./EVCar.css";
+import { evcar } from "../../../constants/pageNames";
+import useFixUrl from "../../../hooks/useFixUrl";
 
 const EVCar = () => {
   const navigate = useNavigate();
+
+  useFixUrl(evcar);
 
   const goBack = () => {
     navigate(-1);

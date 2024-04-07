@@ -132,3 +132,6 @@ img {
     margin-bottom: 2rem;
   }
 }
+html { 
+  scroll-behaviour: smooth
+}

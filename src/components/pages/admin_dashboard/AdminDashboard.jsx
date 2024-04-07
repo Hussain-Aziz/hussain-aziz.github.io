@@ -1,12 +1,16 @@
-import React from "react";
+import React, {useEffect} from "react";
 import { IoMdArrowBack } from "react-icons/io";
 import { useNavigate } from "react-router-dom";
 import AdminDashbord_UserManagement from "../../../assets/AdminDashbord_UserManagement.png";
 import AdminDashbord_Map from "../../../assets/AdminDashbord_Map.png";
 import "./AdminDashboard.css";
+import { marshall } from "../../../constants/pageNames";
+import useFixUrl from "../../../hooks/useFixUrl";
 
 const AdminDashboard = () => {
   const navigate = useNavigate();
+
+  useFixUrl(marshall);
 
   const goBack = () => {
     navigate(-1);
