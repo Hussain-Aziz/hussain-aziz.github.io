@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.2cdafd9b.css",
-    "main.js": "/static/js/main.5248fb85.js",
+    "main.js": "/static/js/main.3c9351eb.js",
     "static/media/AdminDashbord_Map.png": "/static/media/AdminDashbord_Map.e15e231a8fe09868cdbc.png",
     "static/media/EVCarUI.gif": "/static/media/EVCarUI.4281cb11997e5115b7f9.gif",
     "static/media/AdminDashbord_UserManagement.png": "/static/media/AdminDashbord_UserManagement.9280e52d18524eedaa99.png",
     "static/media/HKVocalized.png": "/static/media/HKVocalized.eb8e81d001611e300302.png",
     "static/media/Lumafly.png": "/static/media/Lumafly.883ebe9a978fa6358ce7.png",
     "static/media/LumaflyMain.png": "/static/media/LumaflyMain.e656a6edbe08b0707251.png",
+    "static/media/Smart_Home_Automation.png": "/static/media/Smart_Home_Automation.5bb458b58a17e87a59f5.png",
     "static/media/LumaflyMods.png": "/static/media/LumaflyMods.7f626ed6111dd15880f6.png",
     "static/media/Cpp.png": "/static/media/Cpp.ecd3c65192b32594e83d.png",
     "static/media/Mashghal.png": "/static/media/Mashghal.6ce740f965b00562c6ab.png",
@@ -17,10 +18,10 @@
     "static/media/Keras.png": "/static/media/Keras.fc1c6fa0c9a00791f625.png",
     "index.html": "/index.html",
     "main.2cdafd9b.css.map": "/static/css/main.2cdafd9b.css.map",
-    "main.5248fb85.js.map": "/static/js/main.5248fb85.js.map"
+    "main.3c9351eb.js.map": "/static/js/main.3c9351eb.js.map"
   },
   "entrypoints": [
     "static/css/main.2cdafd9b.css",
-    "static/js/main.5248fb85.js"
+    "static/js/main.3c9351eb.js"
   ]
 }
