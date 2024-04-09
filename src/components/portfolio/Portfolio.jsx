@@ -10,6 +10,7 @@ import Cpp from "../../assets/Cpp.png";
 import Java from "../../assets/Java.png";
 import Flutter from "../../assets/Flutter.png";
 import PFW from "../../assets/PFW.png";
+import Smart_Home_Automation from "../../assets/Smart_Home_Automation.png";
 import { Link } from 'react-router-dom';
 import React from "react";
 
@@ -112,6 +113,13 @@ const extraSoloProjects = [
     description: "Uses machine learning to predict customer behaviour",
     technologies: "Python | Scikit-Learn | Pandas | Matplotlib",
     link: "https://github.com/Hussain-Aziz/Predicting-Customer-Behaviour#readme", 
+  },
+  {
+    title: "Smart Home Automation Model",
+    img: Smart_Home_Automation,
+    description: "Uses Raspberry Pi 3B and various sensors for enhanced home security and environmental monitoring.",
+    technologies: "Raspberry Pi | Python | Flask",
+    link: "https://github.com/Hussain-Aziz/Smart-Home-Automation-Model/",
   },
   {
     title: "IEEE PFW Student Chapter Website",
