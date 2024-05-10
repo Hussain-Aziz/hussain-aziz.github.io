@@ -1,10 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.2cdafd9b.css",
-    "main.js": "/static/js/main.3c9351eb.js",
+    "main.css": "/static/css/main.ff15c208.css",
+    "main.js": "/static/js/main.099652a6.js",
     "static/media/AdminDashbord_Map.png": "/static/media/AdminDashbord_Map.e15e231a8fe09868cdbc.png",
+    "static/media/exchange_workflow_1.png": "/static/media/exchange_workflow_1.fea801d04e9e0d22f1f1.png",
     "static/media/EVCarUI.gif": "/static/media/EVCarUI.4281cb11997e5115b7f9.gif",
+    "static/media/exchange_workflow_3.png": "/static/media/exchange_workflow_3.5070da57dd09552602ef.png",
     "static/media/AdminDashbord_UserManagement.png": "/static/media/AdminDashbord_UserManagement.9280e52d18524eedaa99.png",
+    "static/media/exchange_workflow_2.png": "/static/media/exchange_workflow_2.316f949d1cf7168b0f3c.png",
+    "static/media/exchange_workflow_4.png": "/static/media/exchange_workflow_4.17e7c049e8a332a8dbb9.png",
+    "static/media/exchange_architecture.png": "/static/media/exchange_architecture.e00e3fc6b147ca5ed59d.png",
+    "static/media/exchange_workflow_5.png": "/static/media/exchange_workflow_5.4205f72a4a7f2e4604b2.png",
+    "static/media/exchange_usecase.png": "/static/media/exchange_usecase.281c95e13ca286d96dcc.png",
+    "static/media/exchange_workflow_6.png": "/static/media/exchange_workflow_6.d4e80fb481155506a233.png",
     "static/media/HKVocalized.png": "/static/media/HKVocalized.eb8e81d001611e300302.png",
     "static/media/Lumafly.png": "/static/media/Lumafly.883ebe9a978fa6358ce7.png",
     "static/media/LumaflyMain.png": "/static/media/LumaflyMain.e656a6edbe08b0707251.png",
@@ -15,13 +23,14 @@
     "static/media/Java.png": "/static/media/Java.ddb02cdf0bac1faa5b0a.png",
     "static/media/SKLearn.png": "/static/media/SKLearn.d4aa1b3f266f55370aaa.png",
     "static/media/PFW.png": "/static/media/PFW.8cc8e066ff65deaa4ea2.png",
+    "static/media/ixo_banner.png": "/static/media/ixo_banner.39d114f5b9de3515e184.png",
     "static/media/Keras.png": "/static/media/Keras.fc1c6fa0c9a00791f625.png",
     "index.html": "/index.html",
-    "main.2cdafd9b.css.map": "/static/css/main.2cdafd9b.css.map",
-    "main.3c9351eb.js.map": "/static/js/main.3c9351eb.js.map"
+    "main.ff15c208.css.map": "/static/css/main.ff15c208.css.map",
+    "main.099652a6.js.map": "/static/js/main.099652a6.js.map"
   },
   "entrypoints": [
-    "static/css/main.2cdafd9b.css",
-    "static/js/main.3c9351eb.js"
+    "static/css/main.ff15c208.css",
+    "static/js/main.099652a6.js"
   ]
 }
