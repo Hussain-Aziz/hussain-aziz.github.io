@@ -1,4 +1,4 @@
-.dash-back {
+.exchange-back {
   color: var(--color-primary-variant);
   display: flex;
   flex-direction: row;
@@ -9,55 +9,69 @@
   top: 10px;
 }
 
-.dash-back:hover {
+.exchange-back:hover {
   text-decoration: underline;
 }
 
-.dash-display-image{
+.exchange-display-image{
   border-radius: 1rem;
 }
+.exchange-display-image-small{
+  border-radius: 1rem;
+  width: 50%;
+  margin-left: 25%;
+}
 
-.dash-h2 {
+@media screen and (max-width: 1024px){
+  .exchange-display-image-small{
+    border-radius: 1rem;
+    width: 100%;
+    margin-left: 0%;
+  }
+  
+}
+
+.exchange-h2 {
   color: var(--color-primary);
   text-align: center;
 }
 
-.dash-body-container > img {
+.exchange-body-container > img {
   margin-top: 2rem;
 }
 
-.dash-body-container > p {
+.exchange-body-container > p {
   margin-top: 2rem;
 }
 
-.dash-h2 {
+.exchange-h2 {
   color: var(--color-primary);
   margin-top: 1rem;
   font-size: 200%;
 }
 
-.dash-body-container {
+.exchange-body-container {
   margin-top: 2rem;
   margin-left: 5rem;
   margin-right: 5rem;
 }
 
 @media screen and (max-width: 1024px){
-  .dash-body-container {
+  .exchange-body-container {
     margin-left: 2rem;
     margin-right: 2rem;
   }
-  .dash-h2 {
+  .exchange-h2 {
     font-size: 175%;
   }
 }
 
 @media screen and (max-width: 600px){
-  .dash-body-container {
+  .exchange-body-container {
     margin-left: 1.5rem;
     margin-right: 1.5rem;
   }
-  .dash-h2 {
+  .exchange-h2 {
     font-size: 150%;
   }
 }

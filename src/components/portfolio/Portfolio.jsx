@@ -10,15 +10,17 @@ import Cpp from "../../assets/Cpp.png";
 import Java from "../../assets/Java.png";
 import Flutter from "../../assets/Flutter.png";
 import PFW from "../../assets/PFW.png";
+import IXO from "../../assets/ixo_banner.png"
 import Smart_Home_Automation from "../../assets/Smart_Home_Automation.png";
 import { Link } from 'react-router-dom';
 import React from "react";
 
 const Portfolio = () => {
 
-  const [isShowMoreClicked, setShowMoreClicked] = React.useState(false);
+  const [isShowMoreClicked, setShowMoreClicked] = React.useState(0);
 
-  const projects = soloProjects.concat(isShowMoreClicked ? extraSoloProjects : []);
+  //const projects = soloProjects.concat(isShowMoreClicked ? extraSoloProjects : []);
+  const projects = soloProjects.concat(isShowMoreClicked > 0 ? extraSoloProjects : []).concat(isShowMoreClicked > 1 ? extraSoloProjects2 : []);
 
   return (
     <section id="portfolio">
@@ -48,7 +50,13 @@ const Portfolio = () => {
         ))}
       </div>
       <div className="show-more-container">
-        {!isShowMoreClicked && <button className="btn show-more" onClick={() => setShowMoreClicked(true)}>Show More</button>}
+        {(isShowMoreClicked < 2) && <button className="btn show-more" onClick={() => setShowMoreClicked(s => s+1)}>Show More</button>}
+        {(isShowMoreClicked === 2) && <button className="btn show-more" onClick={() => {
+          const portfolio = document.getElementById('portfolio');
+          portfolio.scrollIntoView({behavior: 'smooth'});
+          setTimeout(() => setShowMoreClicked(0), 500);
+          // scroll to #portfolio
+          }}>Show Less</button>}
       </div>
     </section>
   );
@@ -61,6 +69,13 @@ const soloProjects = [
     description: "A fully featured, cross platform desktop app written in C# which currently has 175k+ downloads.",
     technologies: "C# | AvaloniaUI",
     link: "/Lumafly",
+  },
+  {
+    title: "Senior Design Project",
+    img: IXO,
+    description: "A website for the exchange office in AUS that automates the course approval process.",
+    technologies: "NextJS | Django | AWS",
+    link: "/Exchange",
   },
   {
     title: "Admin Dashboard",
@@ -84,13 +99,6 @@ const soloProjects = [
     link: "https://github.com/Hallownest-Vocalized/Hallownest-Vocalized", 
   },
   {
-    title: "IEEE Race Car Dashboard",
-    img: EVCarUI ,
-    description: "Built a car dashboard screen to be displayed on a Raspberry Pi screen in a custom built EV car",
-    technologies: "C# | Avalonia | Raspberry Pi | LoRa",
-    link: "/EVCar", 
-  },
-  {
     title: "Mashghal",
     img: Mashghal,
     description: "Built demo mobile app for a national competition that involves creating and developing a startup idea.",
@@ -100,6 +108,13 @@ const soloProjects = [
 ];
 
 const extraSoloProjects = [
+  {
+    title: "IEEE Race Car Dashboard",
+    img: EVCarUI ,
+    description: "Built a car dashboard screen to be displayed on a Raspberry Pi screen in a custom built EV car",
+    technologies: "C# | Avalonia | Raspberry Pi | LoRa",
+    link: "/EVCar", 
+  },
   {
     title: "Time Convertor",
     img: Flutter,
@@ -135,6 +150,9 @@ const extraSoloProjects = [
     technologies: "C++ | CLI | CMake",
     link: "https://github.com/Hussain-Aziz/Pizza-Store-System#readme", 
   },
+];
+
+const extraSoloProjects2 = [
   {
     title: "Hunger Games Simulator",
     img: Java,

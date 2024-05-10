@@ -4,6 +4,7 @@ import App from './App';
 import AdminDashboard from './components/pages/admin_dashboard/AdminDashboard';
 import Lumafly from './components/pages/lumafly/Lumafly';
 import EVCar from './components/pages/ev_car/EVCar';
+import Exchange from './components/pages/exchange/Exchange';
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import './index.css';
 
@@ -19,6 +20,10 @@ const router = createBrowserRouter([
   {
     path: "/EVCar",
     element: <EVCar />,
+  },
+  {
+    path: "/Exchange",
+    element: <Exchange />,
   },
   {
     path: "*",

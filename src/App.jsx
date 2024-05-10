@@ -24,7 +24,7 @@ const App = () => {
       if (page === marshall) changePage("/Marshall");
       if (page === evcar) changePage("/EVCar");
       if (page === mimii) window.location.href = 'https://github.com/Hussain-Aziz/Machine-Sound-Anomaly-Detector';
-      if (page === exchange) window.location.href = 'https://exchange-application-frontend.vercel.app/login';
+      if (page === exchange) changePage("/Exchange");
     }
   }, [searchParams, navigate]);
 
