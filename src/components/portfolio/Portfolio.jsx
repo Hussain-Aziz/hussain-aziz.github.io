@@ -12,16 +12,25 @@ import Flutter from "../../assets/Flutter.png";
 import PFW from "../../assets/PFW.png";
 import IXO from "../../assets/ixo_banner.png"
 import Smart_Home_Automation from "../../assets/Smart_Home_Automation.png";
+import washingMachine from "../../assets/washingMachine.png";
 import { Link } from 'react-router-dom';
 import React from "react";
+import {isMobile} from 'react-device-detect';
 
 const Portfolio = () => {
 
-  const [isShowMoreClicked, setShowMoreClicked] = React.useState(0);
+  const [numShowMoreClicked, setNumShowMoreClicked] = React.useState(1);
 
-  //const projects = soloProjects.concat(isShowMoreClicked ? extraSoloProjects : []);
-  const projects = soloProjects.concat(isShowMoreClicked > 0 ? extraSoloProjects : []).concat(isShowMoreClicked > 1 ? extraSoloProjects2 : []);
+  const end = () => {
+    const numProjs = (isMobile ? 3 : 6) * numShowMoreClicked;
 
+    if (numProjs >= soloProjects.length) return undefined;
+
+    return numProjs
+  }
+
+  const projects = isMobile ? soloProjects.slice(0, end()) : soloProjects.slice(0, end());
+  
   return (
     <section id="portfolio">
       <h5>My Recent Work</h5>
@@ -29,7 +38,7 @@ const Portfolio = () => {
 
       <div className="container portfolio__container">
         {projects.map((pro, id) => (
-          <article className={`${isShowMoreClicked && id >= 6 ? 'new-item ' : ''}portfolio__item`} key={id}>
+          <article className={`${numShowMoreClicked && id >= 6 ? 'new-item ' : ''}portfolio__item`} key={id}>
             <div className="portfolio__item-image" style={{display: 'flex'}}>
               <img src={pro.img} alt={pro.title}
                 style={{margin: 'auto', borderRadius: '1.5rem', maxHeight: '90%'}}
@@ -50,11 +59,11 @@ const Portfolio = () => {
         ))}
       </div>
       <div className="show-more-container">
-        {(isShowMoreClicked < 2) && <button className="btn show-more" onClick={() => setShowMoreClicked(s => s+1)}>Show More</button>}
-        {(isShowMoreClicked === 2) && <button className="btn show-more" onClick={() => {
+        {(end() !== undefined) && <button className="btn show-more" onClick={() => setNumShowMoreClicked(s => s+1)}>Show More</button>}
+        {(end() === undefined) && <button className="btn show-more" onClick={() => {
           const portfolio = document.getElementById('portfolio');
           portfolio.scrollIntoView({behavior: 'smooth'});
-          setTimeout(() => setShowMoreClicked(0), 500);
+          setTimeout(() => setNumShowMoreClicked(1), 500);
           // scroll to #portfolio
           }}>Show Less</button>}
       </div>
@@ -64,17 +73,10 @@ const Portfolio = () => {
 
 const soloProjects = [
   {
-    title: "Lumafly",
-    img: Lumafly,
-    description: "A fully featured, cross platform desktop app written in C# which currently has 175k+ downloads.",
-    technologies: "C# | AvaloniaUI",
-    link: "/Lumafly",
-  },
-  {
     title: "Senior Design Project",
     img: IXO,
     description: "A website for the exchange office in AUS that automates the course approval process.",
-    technologies: "NextJS | Django | AWS",
+    technologies: "NextJS (React) | Django | AWS",
     link: "/Exchange",
   },
   {
@@ -85,18 +87,25 @@ const soloProjects = [
     link: "/Marshall",
   },
   {
+    title: "Lumafly",
+    img: Lumafly,
+    description: "A fully featured, cross platform desktop app written in C# which currently has 225k+ downloads.",
+    technologies: "C# | AvaloniaUI (WPF)",
+    link: "/Lumafly",
+  },
+  {
     title: "Anomalous Sound Detection",
     img: Keras,
     description: "Uses auto encoder neural networks for anomaly detection in factory machine sounds",
     technologies: "Python | Keras | Sklearn | Cuml",
     link: "https://github.com/Hussain-Aziz/Machine-Sound-Anomaly-Detector#readme", 
-  },      
+  },        
   {
-    title: "Hallownest Vocalized",
-    img: HKVocalized,
-    description: "Lead developer for a mod that adds English voice acting to all Hollow Knight's in-game dialogue.",
-    technologies: "Unity | C#",
-    link: "https://github.com/Hallownest-Vocalized/Hallownest-Vocalized", 
+    title: "BlackWashUltra",
+    img: washingMachine,
+    description: "A website that allows users to book and pay for laundry services online. Made for software engineering course at AUS.",
+    technologies: "React | Bootstrap | Firebase",
+    link: "https://soft-eng-zeta.vercel.app/",
   },
   {
     title: "Mashghal",
@@ -105,9 +114,13 @@ const soloProjects = [
     technologies: "Flutter | Dart",
     link: "https://github.com/Hussain-Aziz/Mashghal#readme",
   },
-];
-
-const extraSoloProjects = [
+  {
+    title: "Hallownest Vocalized",
+    img: HKVocalized,
+    description: "Lead developer for a mod that adds English voice acting to all Hollow Knight's in-game dialogue.",
+    technologies: "Unity | C#",
+    link: "https://github.com/Hallownest-Vocalized/Hallownest-Vocalized", 
+  },
   {
     title: "IEEE Race Car Dashboard",
     img: EVCarUI ,
@@ -150,9 +163,6 @@ const extraSoloProjects = [
     technologies: "C++ | CLI | CMake",
     link: "https://github.com/Hussain-Aziz/Pizza-Store-System#readme", 
   },
-];
-
-const extraSoloProjects2 = [
   {
     title: "Hunger Games Simulator",
     img: Java,
