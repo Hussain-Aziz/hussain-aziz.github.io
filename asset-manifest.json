@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.ff15c208.css",
-    "main.js": "/static/js/main.a7ec69aa.js",
+    "main.js": "/static/js/main.bac88340.js",
     "static/media/AdminDashbord_Map.png": "/static/media/AdminDashbord_Map.e15e231a8fe09868cdbc.png",
     "static/media/exchange_workflow_1.png": "/static/media/exchange_workflow_1.fea801d04e9e0d22f1f1.png",
     "static/media/EVCarUI.gif": "/static/media/EVCarUI.4281cb11997e5115b7f9.gif",
@@ -20,6 +20,7 @@
     "static/media/LumaflyMods.png": "/static/media/LumaflyMods.7f626ed6111dd15880f6.png",
     "static/media/Cpp.png": "/static/media/Cpp.ecd3c65192b32594e83d.png",
     "static/media/Mashghal.png": "/static/media/Mashghal.6ce740f965b00562c6ab.png",
+    "static/media/washingMachine.png": "/static/media/washingMachine.1c81a8cbeb8ed2bcee2c.png",
     "static/media/Java.png": "/static/media/Java.ddb02cdf0bac1faa5b0a.png",
     "static/media/SKLearn.png": "/static/media/SKLearn.d4aa1b3f266f55370aaa.png",
     "static/media/PFW.png": "/static/media/PFW.8cc8e066ff65deaa4ea2.png",
@@ -27,10 +28,10 @@
     "static/media/Keras.png": "/static/media/Keras.fc1c6fa0c9a00791f625.png",
     "index.html": "/index.html",
     "main.ff15c208.css.map": "/static/css/main.ff15c208.css.map",
-    "main.a7ec69aa.js.map": "/static/js/main.a7ec69aa.js.map"
+    "main.bac88340.js.map": "/static/js/main.bac88340.js.map"
   },
   "entrypoints": [
     "static/css/main.ff15c208.css",
-    "static/js/main.a7ec69aa.js"
+    "static/js/main.bac88340.js"
   ]
 }
