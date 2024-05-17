@@ -8,6 +8,13 @@
   position: sticky;
   top: 10px;
 }
+.exchange-view-project-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
 
 .exchange-back:hover {
   text-decoration: underline;

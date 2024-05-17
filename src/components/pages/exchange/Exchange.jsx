@@ -11,6 +11,8 @@ import Workflow5 from "../../../assets/exchange_workflow_5.png";
 import Workflow6 from "../../../assets/exchange_workflow_6.png";
 import { exchange } from "../../../constants/pageNames";
 import useFixUrl from "../../../hooks/useFixUrl";
+import { FaGithub } from "react-icons/fa";
+import { FaExternalLinkAlt } from "react-icons/fa";
 import "./Exchange.css";
 
 const Exchange = () => {
@@ -31,6 +33,10 @@ const Exchange = () => {
 
       <div className="exchange-body-container">
         <h2 className="exchange-h2">AUS Exchange Program Application Platform</h2>
+        <div className="lumafly-view-project-container">
+          <a href="https://github.com/Hussain-Aziz/exchange_application_frontend" title="View frontend on Github"><FaGithub/></a>
+          <a href="https://exchange-application-frontend.vercel.app/" title="View website"><FaExternalLinkAlt/></a>
+        </div>
         <p>
             A website for the <a href="https://www.aus.edu/academics/international-study-and-exchange" target="_blank" rel="noreferrer">Exchange Office at AUS </a>
             to help streamline and automate the previously manual course approval process. The website was built using NextJS in the front end and Django with Django Rest framework in the backend.
